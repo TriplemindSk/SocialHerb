@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sk.s5630213008.phamaherbui1.DetailArticleActivity"
+    tools:showIn="@layout/detail_article"
+    android:background="@color/WBGcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="เภสัชกร"
+            android:id="@+id/textView"
+            android:layout_gravity="right" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text=""
+                android:id="@+id/attv"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+                android:textColor="#373737" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ทำความรู้จักไข้เลือดออกให้มากขึ้น"
+            android:id="@+id/but"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:onClick="atClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="กำจัดลูกน้ำยุงลายก่อนไข้เลือดออกระบาด"
+            android:textSize="18dp"
+            android:id="@+id/button14"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เกล็ดเลือดนั้นสำคัญไฉน"
+            android:textSize="18dp"
+            android:id="@+id/button15"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ไข้เลือดออกหาหมอเร็ว ลดภาวะวิกฤติ"
+            android:textSize="18dp"
+            android:id="@+id/button16"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

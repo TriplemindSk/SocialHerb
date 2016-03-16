@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sk.s5630213008.phamaherbui1.DetailDiseaseCommonActivity"
+    tools:showIn="@layout/detail_disease_common"
+    android:background="@color/WBGcolor">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="ผู้ใช้ทั่วไป"
+                android:id="@+id/tvNORMAL"
+                android:layout_gravity="right" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text=""
+                android:id="@+id/tvSHOW"
+                android:layout_gravity="left"
+                android:textColor="#1c1c1c" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:text="โรคและอาการที่เกี่ยวข้อง"
+                    android:id="@+id/tvDETAILdisease"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#191818" />
+
+            </LinearLayout>
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/scrollView">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ปวดท้องด้านขวาตอนบน ความเจ็บปวดในบริเวณด้านขวาตอนบนของช่องท้อง มักเกิด จากโรคตับและถุงน้ำดี
+            ปวดท้องบริเวณแอ่งกระเพาะอาหาร แอ่งกระเพาะอาหาร คือ บริเวณที่อยู่ใต้ซี่โครงลงมา การเจ็บปวดบริเวณนี้มักเกิดจากการแสบกระเพาะอาหารและอาการไม่ย่อย โรคกระเพาะและลำไส้อักเสบอาจเกิดขึ้นในบริเวณนี้ได้เช่นเดียวกัน บางครั้งโรคต่าง ๆ ที่เกิดขึ้นที่ถุงน้ำดีก็อาจเกิดขึ้นในบริเวณส่วนท้องที่เป็นแอ่งได้
+            ปวดท้องตรงกลาง ส่วนใหญ่มักเกิดจากสาเหตุมาจากโรคที่เกิดขึ้นที่ลำไส้เล็ก และลำไส้ใหญ่ นอกจากนี้อาการปวดท้องที่บริเวณนี้อาจเกิดจากไส้ติ่งอักเสบ ซึ่งมักเริ่มขึ้นที่บริเวณนี้ก่อนเสมอ แล้วจึงเลื่อนมาเป็นส่วนล่าง
+            ปวดท้องด้านซ้ายตอนบน อาจมีสาเหตุมาจากโรคต่าง ๆ ที่เกิดในลำไส้ใหญ่ เช่น โรคท้องผูกหรืออาการหดเกร็งของกล้ามเนื้อลำไส้ใหญ่ แต่หากมีอาการแสบกระเพาะอาหาร นั่นหมายถึงอาจเกิดจากกรดและอาการเจ็บปวดเนื่องจากแผลในกระเพาะ
+            ปวดท้องด้านขวาตอนล่าง อาจเป็นอาการของไส้ติ่งอักเสบอย่างเฉียบพลัน อาการอักเสบ ของลำไส้
+            ปวดท้องด้านซ้ายตอนล่าง อาการปวดที่เป็นลักษณะปวดและคลายสลับกันพร้อมกับ อาการท้องร่วง หรือเกิดจากอาการท้องผูก อาจเกิดจากโรคถุงตันที่ลำไส้ใหญ่อักเสบ (Diverticulitis)
+"
+                    android:id="@+id/tvSHOWdetail"
+                    android:textColor="#7e2525" />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:orientation="horizontal"
+                android:layout_gravity="left"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="โรคที่เกี่ยวข้อง  : "
+                    android:id="@+id/textView5"
+                    android:textColor="#1c1c1c" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="โรคกระเพาะ"
+                    android:id="@+id/btORTHERdisease"
+                    android:onClick="bbClick"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="สมุนไพรที่เกี่ยวข้อง : "
+                    android:id="@+id/textView6"
+                    android:textColor="#1c1c1c" />
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="ขมิ้นชัน"
+                    android:id="@+id/btORTHERherb"
+                    android:onClick="onClick"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="ความคิดเห็นจากเภสัชกร"
+                android:id="@+id/tv7"
+                android:textColor="#1c1c1c" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nudee"
+                    android:id="@+id/textView8"
+                    android:textColor="#1c1c1c" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="ย่านาง แก้อาหารเป็นพิษ ส้มป่อย แก้ท้องร่วง"
+                android:id="@+id/textView10"
+                android:layout_gravity="right" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="somsri"
+                    android:id="@+id/textView9"
+                    android:textColor="#1c1c1c" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="ตำลึง ช่วยแก้อาการท้องผูกได้นะ"
+                android:id="@+id/textView11"
+                android:layout_gravity="right"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

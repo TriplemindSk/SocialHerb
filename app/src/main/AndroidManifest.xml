@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sk.s5630213008.phamaherbui1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiseaseActivity"
+            android:label="@string/title_activity_disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HerbActivity"
+            android:label="@string/title_activity_herb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArticleActivity"
+            android:label="@string/title_activity_article"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailDiseaseActivity"
+            android:label="@string/title_activity_detail_disease"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailHerbActivity"
+            android:label="@string/title_activity_detail_herb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailArticleActivity"
+            android:label="@string/title_activity_detail_article"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowArticleActivity"
+            android:label="@string/title_activity_show_article"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Showarticle2Activity"
+            android:label="@string/title_activity_showarticle2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Detailherb2Activity"
+            android:label="@string/title_activity_detailherb2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Detaildisease2Activity"
+            android:label="@string/title_activity_detaildisease2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenucommonActivity"
+            android:label="@string/title_activity_menucommon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArticlecommonActivity"
+            android:label="@string/title_activity_articlecommon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailArticleCommonActivity"
+            android:label="@string/title_activity_detail_article_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowArticleCommonActivity"
+            android:label="@string/title_activity_show_article_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowArticleCommon2Activity"
+            android:label="@string/title_activity_show_article_common2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiseasecommonActivity"
+            android:label="@string/title_activity_diseasecommon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailDiseaseCommonActivity"
+            android:label="@string/title_activity_detail_disease_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailDiseaseCommon2Activity"
+            android:label="@string/title_activity_detail_disease_common2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfocommonActivity"
+            android:label="@string/title_activity_infocommon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HerbcommonActivity"
+            android:label="@string/title_activity_herbcommon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailHerbCommonActivity"
+            android:label="@string/title_activity_detail_herb_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailHerbCommon2Activity"
+            android:label="@string/title_activity_detail_herb_common2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchHerbCommonActivity"
+            android:label="@string/title_activity_search_herb_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchHerbActivity"
+            android:label="@string/title_activity_search_herb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FullimageActivity"
+            android:label="@string/title_activity_fullimage"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>

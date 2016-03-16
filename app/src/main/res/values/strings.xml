@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Social Herb</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="title_activity_menu">เมนู</string>
+    <string name="title_activity_disease">อาการ/โรค</string>
+    <string name="title_activity_herb">สมุนไพร</string>
+    <string name="title_activity_article">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_info">Infographic</string>
+    <string name="title_activity_fullimage">Infographic</string>
+    <string name="title_activity_detail_disease">อาการ/โรค</string>
+    <string name="title_activity_detail_herb">สมุนไพร</string>
+    <string name="title_activity_detail_article">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_show_article">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_login">ลงชื่อเข้าใช้</string>
+    <string name="title_activity_register">สมัครสมาชิก</string>
+    <string name="title_activity_showarticle2">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_detailherb2">สมุนไพร</string>
+    <string name="title_activity_detaildisease2">อาการ/โรค</string>
+    <string name="title_activity_menucommon">เมนู</string>
+    <string name="title_activity_articlecommon">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_detail_article_common">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_show_article_common">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_show_article_common2">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_diseasecommon">อาการ/โรค</string>
+    <string name="title_activity_detail_disease_common">อาการ/โรค</string>
+    <string name="title_activity_detail_disease_common2">อาการ/โรค</string>
+    <string name="title_activity_infocommon">Infographic</string>
+    <string name="title_activity_herbcommon">สมุนไพร</string>
+    <string name="title_activity_detail_herb_common">สมุนไพร</string>
+    <string name="title_activity_detail_herb_common2">สมุนไพร</string>
+    <string name="title_activity_search_herb_common">สมุนไพร</string>
+    <string name="title_activity_search_herb">สมุนไพร</string>
+</resources>

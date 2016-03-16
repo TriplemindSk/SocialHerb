@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sk.s5630213008.phamaherbui1.Detailherb2Activity"
+    tools:showIn="@layout/detailherb2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="เภสัชกร"
+                android:id="@+id/textView3"
+                android:layout_gravity="right" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="ขมิ้นชัน"
+                        android:id="@+id/tvh"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#1c1c1c" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imgg"
+                        android:layout_gravity="right" />
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="ลักษณะของสมุนไพร"
+                android:id="@+id/tvPHY"
+                android:textColor="#1c1c1c"
+                android:layout_gravity="center_vertical"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/scrollView2"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ขมิ้น เป็นพืชล้มลุกที่จัดอยู่ในตระกูลขิง มีเหง้าอยู่ใต้ดิน เนื้อในของเหง้าจะเป็นสีเหลือง มีกลิ่นหอมเฉพาะตัวมีตั้งแต่สีเหลืองเข้มจนถึงสีแสดจัด โดยที่ถิ่นกำเนิดในแถบเอเชียตะวันออกเฉียงใต้ และมีชื่ออื่น ๆอีก เช่น ขมิ้นชันขมิ้นแกง ขมิ้นหยอก ขมิ้นหัว ขี้มิ้น หมิ้น ทั้งนี้ขึ้นอยู่กับแต่ภาคและจังหวัดนั่น ๆ นิยมนำไปใช้ในการประกอบอาหาร แต่งสี แต่งกลิ่นอาหาร เช่น แกงไตปลา แกงกะหรี่ เป็นต้น"
+                    android:id="@+id/textView13"
+                    android:textColor="#7e2525" />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="สรรพคุณสมุนไพร"
+                    android:id="@+id/tt"
+                    android:textColor="#1c1c1c"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:id="@+id/scrollView3"
+                android:layout_weight="0.38" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของขมิ้นข้อแรกคือมีสารต่อต้านอนุมูลอิสระซึ่งช่วยในการชะลอวัยและชะลอการเกิดริ้วรอย
+ช่วยเสริมสร้างภูมิต้านทานให้กับร่างกาย
+ช่วยเสริมสร้างภูมิคุ้มกันให้ผิวหนังมีสุขภาพดีแข็งแรง
+ขมิ้นชันอาจมีบทบาทช่วยป้องกันการเกิดโรคมะเร็ง เช่น โรคมะเล็งลำไส้ มะเร็งปากมดลูก
+ขมิ้นสามารถช่วยลดระดับคอเลสเตอรอลในร่างกายได้
+ช่วยกำจัดสารพิษออกจากร่างกาย
+ช่วยบรรเทาอาการของโรคเบาหวาน
+มีส่วนช่วยรักษาโรคความดันโลหิตสูง
+ช่วยลดอาการของโรคเกาต์
+ช่วยขับน้ำนมของมารดาหลังคลอดบุตร"
+                    android:id="@+id/textView14"
+                    android:textColor="#7e2525" />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="การนำไปใช้"
+                    android:id="@+id/tvBENEFIT"
+                    android:textColor="#1c1c1c"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:id="@+id/svBB"
+                android:layout_weight="0.38" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ขมิ้นชันสด กับใบพลูคาว บดผสมน้ำผึ้งทาผิวหนังลดการงอกของขนได้
+เวลา 03.00-05.00 น. ช่วงเวลาของปอด หากรับประทานช่วงเวลานี้จะช่วยในการบำรุงปอดช่วยให้ปอดแข็งแรง ช่วยป้องกันการเป็นมะเร็งปากมดลูก ช่วยเสริมสร้างภูมิคุ้มกันให้ผิวหนัง และช่วยเรื่องภูมิแพ้หายใจไม่สะดวก
+เวลา 09.00-11.00 น. ช่วงเวลาของม้าม ช่วยแก้ปัญหาเรื่องน้ำเหลืองเสีย มีแผลบริเวณปาก บรรเทาอาการของโรคเบาหวาน โรคเกาต์ การอ้วนเกินไปหรือผอมเกินไป
+เวลา 11.00-13.00 น. ช่วงเวลาของหัวใจ ช่วยบำรุงหัวใจให้มีสุขภาพแข็งแรง
+เวลา 15.00-17.00 น. ช่วงเวลาของกระเพาะปัสสาวะ ช่วยบำรุงหูรูดกระเพาะปัสสาวะให้แข็งแรง แก้อาการตกขาว และการทำให้เหงื่อออกในช่วงเวลานี้จะช่วยทำให้ร่างกายขับสารพิษออกไปจากร่างกายได้มาก
+เวลา 17.00 น. จนถึงเวลาเข้านอน การรับประทานขมิ้นในช่วงนี้จะช่วยทำให้ความจำดีขึ้น เมื่อตื่นนอนจะไม่อ่อนเพลีย การขับถ่ายก็จะดีขึ้นด้วย"
+                    android:id="@+id/tvDETAIL"
+                    android:textColor="#7e2525" />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="คำแนะนำ"
+                    android:id="@+id/tvBENE"
+                    android:textColor="#1c1c1c"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:id="@+id/svB"
+                android:layout_weight="0.38" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ควรระวังในการใช้และกินขมิ้นชัน น้ำมันที่สกัดจากเหง้าขมิ้นแห้ง คือ
+ไม่ควรกิน เป็นเวลานาน ๆ เพราะจะทำให้เกิดอาการกระวนกระวาย อาเจียน ถ่ายเป็นเลือด สตรีมีครรภ์อ่อน ๆ ไม่ควรกินขมิ้นชันในปริมาณมาก อาจจะทำให้แท้งได้
+
+ทานขมิ้นชันแคปซูลร่วมกับขิง อย่างละ 4 แคปซูล วันละ 3 เวลา ก่อนอาหาร (เนื่องจากขิงมีสารที่ออกฤทธิ์ เช่นเดียวกับ ยาแก้ปวดในกลุ่มที่ไม่ใช่สเตียรอยด์
+หรือ “NSAIDS” และยังป้องกันภาวะตับเป็นพิษ เนื่องจากทานยาพาราเซตามอลได้อีกด้วย)
+
+ทานขมิ้น ครั้งละ 4 แคปซูล (250 mg) วันละ 3 เวลา ก่อนอาหาร (แต่เนื่องจากขมิ้นดูดซึมสู่กระเพาะอาหารได้ไม่ดี จึงควรทานร่วมกับ ขิง-พริกไทย-ดีปลี
+จะให้ผลในการรักษากระเพาะอาหารได้ดีกว่าทานขมิ้น อย่างอย่างเดียว) "
+                    android:id="@+id/tvDE"
+                    android:textColor="#7e2525" />
+
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="แสดงความคิดเห็น "
+                android:id="@+id/textView17" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/scrollView6"
+                android:background="#ffffff" >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="textMultiLine"
+                    android:ems="50"
+                    android:id="@+id/editText7"
+                    android:layout_gravity="center_horizontal" />
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ให้คะแนน : "
+                    android:id="@+id/textView16"
+                    android:layout_gravity="center_vertical"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:id="@+id/ratingBarTWO"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ตกลง"
+                    android:id="@+id/btrate"
+                    android:layout_gravity="center_horizontal" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="ความคิดเห็นจากเภสัชกร"
+                android:id="@+id/textView7"
+                android:textColor="#1c1c1c" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="whankungz"
+                    android:id="@+id/textView8"
+                    android:textColor="#1c1c1c" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="ข้อมูลน่าสนใจ เข้าใจง่าย ครอบคลุมดีค่ะ"
+                android:id="@+id/textView10"
+                android:layout_gravity="right" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="greenkungz"
+                    android:id="@+id/textView9"
+                    android:textColor="#1c1c1c" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:text="กระเจี๊ยบเขียวมีสารเมือก ช่วยเคลือบแผลในกระเพราอาหาร"
+                android:id="@+id/textView11"
+                android:layout_gravity="right"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgrate"
+                    android:layout_gravity="left"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="คะแนนความน่าเชื่อถือ : 4.5"
+                    android:textSize="12dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
