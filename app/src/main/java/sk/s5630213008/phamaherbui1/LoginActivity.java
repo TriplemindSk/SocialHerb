@@ -45,8 +45,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
 
-        if(username.getText().toString().equals("whankunz") &&
-        password.getText().toString().equals("whan55")) {
+        if(username.getText().toString().equals("triplemind") &&
+        password.getText().toString().equals("mamind")) {
             Toast.makeText(getApplicationContext(), "Complete!!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
             startActivity(intent);
